@@ -188,7 +188,7 @@ public class HttpRequest {
 		String result = http.defaultpost("http://***/***/", body);
 		System.out.println(result);
 		
-		System.out.println(http.get("http://***/***/"));
+		System.out.println(http.get("http://***test/***/"));
 		http.closehttpclient();
 	}
 
