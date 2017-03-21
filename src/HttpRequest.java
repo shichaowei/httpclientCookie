@@ -185,7 +185,7 @@ public class HttpRequest {
 		body.put("phone", "");
 		body.put("password", "");
 		HttpRequest http=new HttpRequest();
-		String result = http.defaultpost("http://***test/***/", body);
+		String result = http.defaultpost("http://***test1/***/", body);
 		System.out.println(result);
 		
 		System.out.println(http.get("http://***test/***/"));
